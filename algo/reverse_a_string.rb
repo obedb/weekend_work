@@ -3,6 +3,12 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
+  reverse_a_string = " "
+  result = string.split("")
+  
+
+  result.sort! {|x,y| y <=> x}
+  p result.join("") 
 
 end
 
